@@ -1,7 +1,7 @@
 | Name        | Type                                | Required | Default | Description |
 |-------------|-------------------------------------|----------|---------|-------------|
-| description | string                              | no       |         |             |
-| Link        | CoreLinkProps                       | no       |         |             |
-| placement   | inset \| page \| compact            | no       | inset   |             |
-| title       | string                              | yes      |         |             |
-| type        | info \| success \| warning \| error | no       | info    |             |
+| description | string                              | No       |         |             |
+| Link        | CoreLinkProps                       | No       |         |             |
+| placement   | inset \| page \| compact            | No       | inset   |             |
+| title       | string                              | Yes      |         |             |
+| type        | info \| success \| warning \| error | No       | info    |             |

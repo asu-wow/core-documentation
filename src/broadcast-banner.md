@@ -1,10 +1,10 @@
 | Name        | Type           | Required | Default | Description |
 |-------------|----------------|----------|---------|-------------|
-| description | string         | no       |         |             |
-| hasDismiss  | boolean        | no       |         |             |
-| hasTag      | boolean        | no       | inset   |             |
-| image       | CoreImageProps | yes      |         |             |
-| Link        | CoreLinkProps  | no       |         |             |
-| onDismiss   | (e) => ()      | no       |         |             |
-| onLinkClick | (e) => ()      | no       |         |             |
-| title       | string         | yes      |         |             |
+| description | string         | No       |         |             |
+| hasDismiss  | boolean        | No       |         |             |
+| hasTag      | boolean        | No       | inset   |             |
+| image       | CoreImageProps | Yes      |         |             |
+| Link        | CoreLinkProps  | No       |         |             |
+| onDismiss   | (e) => ()      | No       |         |             |
+| onLinkClick | (e) => ()      | No       |         |             |
+| title       | string         | Yes      |         |             |
