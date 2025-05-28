@@ -1,4 +1,4 @@
-| Name    | Type                 | Required | Default | Description                                |
-|---------|----------------------|----------|---------|--------------------------------------------|
-| label   | string               | Yes      |         | The label for the chip                     |
-| variant | primary \| secondary | No       |         | Determines the importance in the hierarchy |
+| **Name**    | **Description**                            | **Type**             | **Required** | **Default** |
+|-------------|--------------------------------------------|----------------------|--------------|-------------|
+| **label**   | The label for the chip                     | string               | Yes          |             |
+| **variant** | Determines the importance in the hierarchy | primary \| secondary | No           |             |

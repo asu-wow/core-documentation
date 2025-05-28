@@ -1,4 +1,4 @@
-| Name    | Type       | Required | Default | Description                                              |
-|---------|------------|----------|---------|----------------------------------------------------------|
-| icon    | CoreIcon   | No       |         | Icon for assist chip                                     |
-| onClick | () => void | No       |         | Callback function to be called when menu chip is clicked |
+| **Name**    | **Description**                                          | **Type**   | **Required** | **Default** |
+|-------------|----------------------------------------------------------|------------|--------------|-------------|
+| **icon**    | Icon for assist chip                                     | CoreIcon   | No           |             |
+| **onClick** | Callback function to be called when menu chip is clicked | () => void | No           |             |

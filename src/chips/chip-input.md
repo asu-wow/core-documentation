@@ -1,3 +1,3 @@
-| Name    | Type       | Required | Default | Description                                                |
-|---------|------------|----------|---------|------------------------------------------------------------|
-| onClick | () => void | No       |         | Callback function to be called when assist chip is clicked |
+| **Name**    | **Description**                                            | **Type**   | **Required** | **Default** |
+|-------------|------------------------------------------------------------|------------|--------------|-------------|
+| **onClick** | Callback function to be called when assist chip is clicked | () => void | No           |             |

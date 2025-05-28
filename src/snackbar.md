@@ -1,8 +1,8 @@
-| Name            | Type               | Required | Default | Description                                 |
-|-----------------|--------------------|----------|---------|---------------------------------------------|
-| actionOnNewLine | boolean            | No       |         | Place the action button on a new line       |
-| actionText      | string             | No       |         | The label for an optional action button     |
-| duration        | number             | No       | 3000    | Duration (in ms) before snackbar disappears |
-| onAction        | () => void         | No       |         | Callback function                           |
-| text            | string             | Yes      |         | The main text content displayed             |
-| variant         | single \| multiple | No       | single  | Single line for shorter text                |
+| **Name**            | **Description**                             | **Type**           | **Required** | **Default** |
+|---------------------|---------------------------------------------|--------------------|--------------|-------------|
+| **actionOnNewLine** | Place the action button on a new line       | boolean            | No           |             |
+| **actionText**      | The label for an optional action button     | string             | No           |             |
+| **duration**        | Duration (in ms) before snackbar disappears | number             | No           | 3000        |
+| **onAction**        | Callback function                           | () => void         | No           |             |
+| **text**            | The main text content displayed             | string             | Yes          |             |
+| **variant**         | Single line for shorter text                | single \| multiple | No           | single      |

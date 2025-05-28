@@ -1,8 +1,8 @@
-| Name              | Type                                 | Required | Default | Description                                                               |
-|-------------------|--------------------------------------|----------|---------|---------------------------------------------------------------------------|
-| children          | ReactNode                            | No       |         | Content rendered inside the Accordion                                     |
-| isExpanded        | boolean                              | No       | false   | Flag to indicate whether the accordion item is expanded                   |
-| isLazyLoad        | boolean                              | No       | false   | If content is to be lazy loaded                                           |
-| leadingIcon       | CoreIconProps                        | No       |         | Display icon before the title                                             |
-| onPress           | (e) => void                          | No       |         | Emits when the panel is pressed                                           |
-| title             | string                               | No       |         | Title of the accordion                                                    |
+| **Name**        | **Description**                                         | **Type**      | **Required** | **Default** |
+|-----------------|---------------------------------------------------------|---------------|--------------|-------------|
+| **children**    | Content rendered inside the Accordion                   | ReactNode     | No           |             |
+| **isExpanded**  | Flag to indicate whether the accordion item is expanded | boolean       | No           | false       |
+| **isLazyLoad**  | If content is to be lazy loaded                         | boolean       | No           | false       |
+| **leadingIcon** | Display icon before the title                           | CoreIconProps | No           |             |
+| **onPress**     | Emits when the panel is pressed                         | (e) => void   | No           |             |
+| **title**       | Title of the accordion                                  | string        | No           |             |

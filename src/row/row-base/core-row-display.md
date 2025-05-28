@@ -1,4 +1,4 @@
-| Name    | Type                 | Required | Default | Description                     |
-|---------|----------------------|----------|---------|---------------------------------|
-| text    | string               | yes      |         | Trailing text to display in row |
-| variant | badge \| tag \| text | yes      |         | Trailing text variant           |
+| **Name**    | **Description**                 | **Type**             | **Required** | **Default** |
+|-------------|---------------------------------|----------------------|--------------|-------------|
+| **text**    | Trailing text to display in row | string               | yes          |             |
+| **variant** | Trailing text variant           | badge \| tag \| text | yes          |             |

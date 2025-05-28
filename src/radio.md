@@ -1,11 +1,11 @@
-| Name       | Type            | Required | Default | Description                                         |
-|------------|-----------------|----------|---------|-----------------------------------------------------|
-| hasError   | boolean         | No       | false   | Indicate error                                      |
-| id         | string          | No       |         | Unique id for the radio button.                     |
-| isChecked  | boolean         | No       | false   | boolean to check if radio button is selected or not |
-| isDisabled | boolean         | No       | false   | Disable the radio button                            |
-| isQuiet    | boolean         | No       | false   | Disables UI interactivity                           |
-| label      | string          | Yes      |         | Label to display for the radio button               |
-| name       | string          | Yes      |         | Name attribute to group radio buttons together      |
-| onChange   | () => void      | No       |         | Callback when the radio button's state changes      |
-| value      | string\| number | Yes      |         | The value associated with the radio button          |
+| **Name**       | **Description**                                     | **Type**        | **Required** | **Default** |
+|----------------|-----------------------------------------------------|-----------------|--------------|-------------|
+| **hasError**   | Indicate error                                      | boolean         | No           | false       |
+| **id**         | Unique id for the radio button.                     | string          | No           |             |
+| **isChecked**  | boolean to check if radio button is selected or not | boolean         | No           | false       |
+| **isDisabled** | Disable the radio button                            | boolean         | No           | false       |
+| **isQuiet**    | Disables UI interactivity                           | boolean         | No           | false       |
+| **label**      | Label to display for the radio button               | string          | Yes          |             |
+| **name**       | Name attribute to group radio buttons together      | string          | Yes          |             |
+| **onChange**   | Callback when the radio button's state changes      | () => void      | No           |             |
+| **value**      | The value associated with the radio button          | string\| number | Yes          |             |

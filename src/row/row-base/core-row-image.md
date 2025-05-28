@@ -1,4 +1,4 @@
-| Name  | Type           | Required | Default | Description |
-|-------|----------------|----------|---------|-------------|
-| image | CoreImageProps | no       |         |             |
-| size  | small \| large | no       | small   |             |
+| **Name**  | **Description**         | **Type**       | **Required** | **Default** |
+|-----------|-------------------------|----------------|--------------|-------------|
+| **image** | Configuration for image | CoreImageProps | no           |             |
+| **size**  | Image size property     | small \| large | no           | small       |

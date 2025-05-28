@@ -1,6 +1,6 @@
-| Name               | Type          | Required | Default | Description                                         |
-|--------------------|---------------|----------|---------|-----------------------------------------------------|
-| isInterdeterminate | boolean       | No       |         | Determine if checkbox is in a mixed state           |
-| name               | string        | Yes      |         | Name attribute to checkbox                          |
-| onChange           | () => void    | Yes      |         | Callback function for when checkbox is clicked      |
-| value              | string        | Yes      |         | The value associated with the checkbox button       |
+| **Name**               | **Description**                                | **Type**   | **Required** | **Default** |
+|------------------------|------------------------------------------------|------------|--------------|-------------|
+| **isInterdeterminate** | Determine if checkbox is in a mixed state      | boolean    | No           |             |
+| **name**               | Name attribute to checkbox                     | string     | Yes          |             |
+| **onChange**           | Callback function for when checkbox is clicked | () => void | Yes          |             |
+| **value**              | The value associated with the checkbox button  | string     | Yes          |             |
