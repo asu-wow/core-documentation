@@ -1,39 +1,9 @@
-| **description**     |                                                 |
-|---------------------|-------------------------------------------------|
-| Description         | Body copy of alert component                    |
-| Type                | string                                          |
-
-
-| **hasExternalIcon** | **_{DEPRECATED}_**                              |
-|---------------------|-------------------------------------------------|
-| Description         | To be deprecated and replace with CoreLinkProps |
-
-| **linkLabel**       | **_{DEPRECATED}_**                              |
-|---------------------|-------------------------------------------------|
-| Description         | To be deprecated and replace with CoreLinkProps |
-
-| **link**            |                                                 |
-|---------------------|-------------------------------------------------|
-| Description         | Link for alert                                  |
-| Type                | CoreLinkProps                                   |
-
-| **placement**       |                                                 |
-|---------------------|-------------------------------------------------|
-| Description         | Indicate the placement of alert                 |
-| Type                | inset \| page \| compact                        |
-| Default             | inset                                           |
-
-| **title**           | **REQUIRED**                                    |
-|---------------------|-------------------------------------------------|
-| Description         | Title of the alert                              |
-| Type                | string                                          |
-
-| **variant**         |                                                 |
-|---------------------|-------------------------------------------------|
-| Description         | Indicate alert type                             |
-| Type                | info \| success \| warning \| error             |
-
-
-| **url**             | **_DEPRECATED_**                                |
-|---------------------|-------------------------------------------------|
-| Description         | To be deprecated and replace with CoreLinkProps |
+| Name                | Type                                | Required | Default | Description                     |
+|---------------------|-------------------------------------|----------|---------|---------------------------------|
+| description         | string                              | No       |         | Body copy of alert              |
+| ~~hasExternalLink~~ | boolean                             | No       |         | **_deprecated_**                |
+| link                | CoreLinkProps                       | No       |         |                                 |
+| ~~linkLabel~~       | string                              | No       |         | **_deprecated_**                | 
+| placement           | inset \| page \| compact            | No       | inset   | Indicate the placement of alert |
+| title               | string                              | Yes      |         | Title of alert                  |
+| variant             | info \| success \| warning \| error | No       | info    | Alert type                      |
