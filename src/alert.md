@@ -1,9 +1,9 @@
-| Name                | Type                                | Required | Default | Description                     |
-|---------------------|-------------------------------------|----------|---------|---------------------------------|
-| description         | string                              | No       |         | Body copy of alert              |
-| ~~hasExternalLink~~ | boolean                             | No       |         | **_deprecated_**                |
-| link                | CoreLinkProps                       | No       |         |                                 |
-| ~~linkLabel~~       | string                              | No       |         | **_deprecated_**                | 
-| placement           | inset \| page \| compact            | No       | inset   | Indicate the placement of alert |
-| title               | string                              | Yes      |         | Title of alert                  |
-| variant             | info \| success \| warning \| error | No       | info    | Alert type                      |
+| **Name**                | **Description**                 | **Type**                            | **Default** |
+|-------------------------|---------------------------------|-------------------------------------|-------------|
+| **description**         | Body copy of alert              | string                              |             |
+| **~~hasExternalLink~~** | **_deprecated_**                | boolean                             |             |
+| **link**                |                                 | CoreLinkProps                       |             |
+| **~~linkLabel~~**       | **_deprecated_**                | string                              |             |
+| **placement**           | Indicate the placement of alert | inset \| page \| compact            | inset       |
+| **title***              | Title of alert                  | string                              |             |
+| **variant**             | Alert type                      | info \| success \| warning \| error | info        |
