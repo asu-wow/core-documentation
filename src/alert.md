@@ -1,7 +1,30 @@
-| Name        | Type                                | Required | Default | Description |
-|-------------|-------------------------------------|----------|---------|-------------|
-| description | string                              | No       |         |             |
-| Link        | CoreLinkProps                       | No       |         |             |
-| placement   | inset \| page \| compact            | No       | inset   |             |
-| title       | string                              | Yes      |         |             |
-| type        | info \| success \| warning \| error | No       | info    |             |
+| **description**     |                                                 |
+|---------------------|-------------------------------------------------|
+| Description         | Body copy of alert component                    |
+| Type                | string                                          |
+
+| **hasExternalIcon** | **_DEPRECATED_**                              |
+| Description         | To be deprecated and replace with CoreLinkProps |
+
+| **linkLabel**       | **_DEPRECATED_**                              |
+| Description         | To be deprecated and replace with CoreLinkProps |
+
+| **link**            |                                                 |
+| Description         | Link for alert                                  |
+| Type                | CoreLinkProps                                   |
+
+| **placement**       |                                                 |
+| Description         | Indicate the placement of alert                 |
+| Type                | inset \| page \| compact                        |
+| Default             | inset                                           |
+
+| **title**           | **REQUIRED**                                    |
+| Description         | Title of the alert                              |
+| Type                | string                                          |
+
+| **variant**         |                                                 |
+| Description         | Indicate alert type                             |
+| Type                | info \| success \| warning \| error             |
+
+| **url**             | **_DEPRECATED_**                                |
+| Description         | To be deprecated and replace with CoreLinkProps |
